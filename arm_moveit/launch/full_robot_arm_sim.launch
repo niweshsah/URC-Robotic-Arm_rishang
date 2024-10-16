@@ -6,6 +6,7 @@ controllers -->
  
   <!-- Launch Moveit Move Group Node --> 
   <include file = "$(find arm_moveit)/launch/move_group.launch" />  
+  
  
   <!-- Run Rviz and load the default configuration to see the state of the move_group node -->  
   <arg name="use_rviz" default="true" /> 
@@ -14,6 +15,5 @@ controllers -->
 use_rviz)"> 
     <arg name="rviz_config" value="$(find arm_moveit)/launch/moveit.rviz"/> 
   </include> 
- 
  
 </launch>

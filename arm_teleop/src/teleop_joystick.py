@@ -10,7 +10,7 @@ class TeleopArmController:
         self.joint_names = ['joint_0', 'joint_1', 'joint_2', 'joint_3', 'joint_4']
         # Initial joint angles
         self.joint_angles = [0.0] * len(self.joint_names)
-        self.joint_step = 0.1  # Step size for changing joint angles
+        self.joint_step = 0.01  # Step size for changing joint angles
         # Initialize the selected joint
         self.selected_joint = 0
 
